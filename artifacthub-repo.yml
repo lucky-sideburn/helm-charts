@@ -1,0 +1,3 @@
+owners: # (optional, used to claim repository ownership)
+  - name: kubeinvaders
+    email: eugenio.marzo@yahoo.it
