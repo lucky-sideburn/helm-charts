@@ -8,6 +8,8 @@ Contributions from kubeinvaders to KubeInvaders are welcome!
 ## Usage
 
 ```bash
+helm repo add kubeinvaders https://lucky-sideburn.github.io/helm-charts/
+
 kubectl create namespace kubeinvaders
 
 # Install new and full open-source version
