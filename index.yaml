@@ -3,9 +3,9 @@ entries:
   kubeinvaders:
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2021-03-27T17:58:57.443557+01:00"
+    created: "2021-03-27T18:01:33.671383+01:00"
     description: A Helm chart for KubeInvaders
-    digest: 0c6af167b371044f26c3205ebedd49b62ea04db610ad9aa7a0ab26eda71c0914
+    digest: 1607f6f1dceace959336186b460491f75fe0a40623245eec4c26d13806abfac6
     home: https://github.com/lucky-sideburn/KubeInvaders
     maintainers:
     - email: luckysideburn@gmail.com
@@ -16,4 +16,4 @@ entries:
     urls:
     - kubeinvaders-1.1.tgz
     version: "1.1"
-generated: "2021-03-27T17:58:57.442847+01:00"
+generated: "2021-03-27T18:01:33.65634+01:00"
