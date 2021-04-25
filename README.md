@@ -9,8 +9,8 @@ kubectl create namespace kubeinvaders
 
 # Install new and full open-source version
 helm install kubeinvaders --set-string target_namespace="namespace1\,namespace2" \
---namespace kubeinvaders ./helm-charts/kubeinvaders \
---set ingress.hostName=kubeinvaders.io --set image.tag=v1.0
+--namespace kubeinvaders kubeinvaders/kubeinvaders \
+--set ingress.hostName=kubeinvaders.io --set image.tag=v1.3
 ```
 
 ## Helm Values
