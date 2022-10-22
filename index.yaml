@@ -2,8 +2,23 @@ apiVersion: v1
 entries:
   kubeinvaders:
   - apiVersion: v1
+    appVersion: 1.9.5
+    created: "2022-10-22T18:01:08.358931749Z"
+    description: A Helm chart for KubeInvaders
+    digest: 4409206e75ba8a5a0ebc6b1293dd4d043a940f32ec89c23e8bc77b85e964d821
+    home: https://github.com/lucky-sideburn/KubeInvaders
+    maintainers:
+    - email: luckysideburn@gmail.com
+      name: lucky-sideburn
+    name: kubeinvaders
+    sources:
+    - https://github.com/lucky-sideburn/KubeInvaders
+    urls:
+    - kubeinvaders-1.9.5.tgz
+    version: 1.9.5
+  - apiVersion: v1
     appVersion: 1.9.3
-    created: "2022-10-21T17:23:44.133120966Z"
+    created: "2022-10-22T18:01:08.358041148Z"
     description: A Helm chart for KubeInvaders
     digest: bb4a05f5ff370317d4892287f52a761b12a31a8d0e85f48c860a00d5ece51f3a
     home: https://github.com/lucky-sideburn/KubeInvaders
@@ -18,7 +33,7 @@ entries:
     version: 1.9.3
   - apiVersion: v1
     appVersion: 1.9.2
-    created: "2022-10-21T17:23:44.132276987Z"
+    created: "2022-10-22T18:01:08.356692576Z"
     description: A Helm chart for KubeInvaders
     digest: 2ac324f5fc74161fa09c4d01f68c4049a5198f705971505fe68809ae6ae10d42
     home: https://github.com/lucky-sideburn/KubeInvaders
@@ -33,7 +48,7 @@ entries:
     version: 1.9.2
   - apiVersion: v1
     appVersion: "1.9"
-    created: "2022-10-21T17:23:44.134449592Z"
+    created: "2022-10-22T18:01:08.360327766Z"
     description: A Helm chart for KubeInvaders
     digest: 73dbb1d90a6d3f2b09cc85e3f60b051afc84b90621336018607db7da438e39ea
     home: https://github.com/lucky-sideburn/KubeInvaders
@@ -48,7 +63,7 @@ entries:
     version: "1.9"
   - apiVersion: v1
     appVersion: "1.7"
-    created: "2022-10-21T17:23:44.130993401Z"
+    created: "2022-10-22T18:01:08.355549667Z"
     description: A Helm chart for KubeInvaders
     digest: bf2fa8f79cf5e734f218cd157ec453e3a6fcd1374f93c6b8ea0ab4757251f466
     home: https://github.com/lucky-sideburn/KubeInvaders
@@ -63,7 +78,7 @@ entries:
     version: "1.7"
   - apiVersion: v1
     appVersion: "1.6"
-    created: "2022-10-21T17:23:44.130009586Z"
+    created: "2022-10-22T18:01:08.354528199Z"
     description: A Helm chart for KubeInvaders
     digest: 1dbc01f5b2d7381eaa653e5eb69b1a549a906b4ad169fc6cb4f319505ac5c87b
     home: https://github.com/lucky-sideburn/KubeInvaders
@@ -78,7 +93,7 @@ entries:
     version: "1.6"
   - apiVersion: v1
     appVersion: "1.5"
-    created: "2022-10-21T17:23:44.128964218Z"
+    created: "2022-10-22T18:01:08.352917278Z"
     description: A Helm chart for KubeInvaders
     digest: b23ec32bc9e93ef71501e437e7194549831463d7b37699ea133cb02560b732a9
     home: https://github.com/lucky-sideburn/KubeInvaders
@@ -93,7 +108,7 @@ entries:
     version: "1.5"
   - apiVersion: v1
     appVersion: "1.4"
-    created: "2022-10-21T17:23:44.127826245Z"
+    created: "2022-10-22T18:01:08.351301222Z"
     description: A Helm chart for KubeInvaders
     digest: 31a8cc9e7cb7490bf86d30cfab793a946c5acbf5d567f4ea7f59338c4b8a8085
     home: https://github.com/lucky-sideburn/KubeInvaders
@@ -108,7 +123,7 @@ entries:
     version: "1.4"
   - apiVersion: v1
     appVersion: "1.3"
-    created: "2022-10-21T17:23:44.126610446Z"
+    created: "2022-10-22T18:01:08.34972856Z"
     description: A Helm chart for KubeInvaders
     digest: d8ae74e139f4f3821061f3d9813131a67c87c411d8ff1b939c0bbc4001a4a452
     home: https://github.com/lucky-sideburn/KubeInvaders
@@ -123,7 +138,7 @@ entries:
     version: "1.3"
   - apiVersion: v1
     appVersion: "1.2"
-    created: "2022-10-21T17:23:44.125419887Z"
+    created: "2022-10-22T18:01:08.347580231Z"
     description: A Helm chart for KubeInvaders
     digest: b03d636540131bda99718c13f05b0911bafe440b1c503577c1a7980dd7cb1502
     home: https://github.com/lucky-sideburn/KubeInvaders
@@ -138,7 +153,7 @@ entries:
     version: "1.2"
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2022-10-21T17:23:44.123256322Z"
+    created: "2022-10-22T18:01:08.346105187Z"
     description: A Helm chart for KubeInvaders
     digest: 243b3f291c6b4c5cf2562188dd694df8bf79a3629dd22b1493d1f11acd7982f9
     home: https://github.com/lucky-sideburn/KubeInvaders
@@ -151,4 +166,4 @@ entries:
     urls:
     - kubeinvaders-1.1.tgz
     version: "1.1"
-generated: "2022-10-21T17:23:44.118895264Z"
+generated: "2022-10-22T18:01:08.343958545Z"
