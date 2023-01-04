@@ -4,13 +4,12 @@
 
 ```bash
 helm repo add kubeinvaders https://lucky-sideburn.github.io/helm-charts/
+helm repo update
 
 kubectl create namespace kubeinvaders
 
-# Install new and full open-source version
-helm install kubeinvaders --set-string target_namespace="namespace1\,namespace2" \
---namespace kubeinvaders kubeinvaders/kubeinvaders \
---set ingress.hostName=kubeinvaders.io --set image.tag=v1.9
+helm install kubeinvaders --set-string config.target_namespace="namespace1\,namespace2" \
+-n kubeinvaders kubeinvaders/kubeinvaders --set ingress.enabled=true --set ingress.hostName=kubeinvaders.io --set deployment.image.tag=v1.9.6
 ```
 
 ## Helm Values
