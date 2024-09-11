@@ -3,7 +3,7 @@ entries:
   kubeinvaders:
   - apiVersion: v1
     appVersion: 1.9.7
-    created: "2024-09-11T09:03:49.190289448Z"
+    created: "2024-09-11T09:24:03.925960268Z"
     description: A Helm chart for KubeInvaders
     digest: 91752d9ed2913b16d1249466d63702da5590a402ef4049c0de68106a248087ce
     home: https://github.com/lucky-sideburn/KubeInvaders
@@ -16,4 +16,4 @@ entries:
     urls:
     - kubeinvaders-1.9.7.tgz
     version: 1.9.7
-generated: "2024-09-11T09:03:49.188899554Z"
+generated: "2024-09-11T09:24:03.92464451Z"
